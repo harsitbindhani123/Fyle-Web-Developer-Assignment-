@@ -693,3 +693,138 @@ p.info-text1 {
     padding: 0;
     margin: 0;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    .text-content,
+    .image-content {
+        flex: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .text-content h1,
+    .text-content h2 {
+        font-size: 24px;
+    }
+
+    .text-content p {
+        font-size: 14px;
+    }
+
+    .text-content .contact-btn {
+        font-size: 14px;
+    }
+
+    .header-inline h2 {
+        font-size: 32px;
+    }
+
+    .header-inline p {
+        font-size: 14px;
+    }
+
+    .slider-container {
+        height: auto;
+    }
+
+    .slider {
+        flex-direction: column;
+        animation: none;
+        /* Disable animation for smaller screens */
+    }
+
+    .service-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .service-item img {
+        opacity: 1;
+        /* Ensure image is always visible */
+    }
+
+    .service-item .content-overlay {
+        opacity: 1;
+        /* Ensure overlay is always visible */
+        background-color: transparent;
+        /* Make overlay transparent */
+        position: relative;
+        /* Change position to relative */
+    }
+
+    .service-item:hover img {
+        opacity: 1;
+        /* Ensure image is visible on hover */
+    }
+
+    .service-item:hover .content-overlay {
+        background-color: transparent;
+        /* Keep background transparent on hover */
+    }
+}
+
+@media (max-width: 480px) {
+
+    .text-content h1,
+    .text-content h2 {
+        font-size: 20px;
+    }
+
+    .text-content p {
+        font-size: 12px;
+    }
+
+    .text-content .contact-btn {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    .header-inline h2 {
+        font-size: 28px;
+    }
+
+    .header-inline p {
+        font-size: 12px;
+    }
+
+    .slider-container {
+        height: auto;
+    }
+
+    .slider {
+        flex-direction: column;
+        animation: none;
+        /* Disable animation for smaller screens */
+    }
+
+    .service-item {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .service-item img {
+        opacity: 1;
+        /* Ensure image is always visible */
+    }
+
+    .service-item .content-overlay {
+        opacity: 1;
+        /* Ensure overlay is always visible */
+        background-color: transparent;
+        /* Make overlay transparent */
+        position: relative;
+        /* Change position to relative */
+    }
+
+    .service-item:hover img {
+        opacity: 1;
+        /* Ensure image is visible on hover */
+    }
+
+    .service-item:hover .content-overlay {
+        background-color: transparent;
+        /* Keep background transparent on hover */
+    }
+}
